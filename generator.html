@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type= "text/javascript">
+    
+
+        const passwordGen = {
+         containsNum: [0,1,2,3,4,5,6,7,8,9],
+         containsLowercaseLetters: ['q','w','e','r','t','y','u','i','o','p','l','k','j','h','g','f','d','s','a','z','x','c','v','b','n','m'],
+         containsSpecialChar: "!#$%&'()*+,-./:;<=>?@_`{|}~",
+
+               
+
+         numbers:function(){
+            prompt('do you want to have numbers');
+            alert(this.containsNum);
+         },
+
+         specialChar:function(){
+            prompt ("do you want to have special characters");
+            alert(this.containsSpecialChar);
+         },
+
+         lowerCase:function(){
+            prompt ("Do you want to have characters ");
+            alert(this.containsSpecialChar);
+         }
+
+        }
+        let passMessage = prompt ('Please click okay to generate a password'),
+       
+            if (numbers) {
+            passwordGen.numbers();
+            // random picker alert
+            }
+        else if (number === true && specialChar === true){
+            passwordGen.specialChar();
+                 // random picker alert
+        } else if(number === true && specialChar === true && lowerCase === true){
+            //random picker alert
+            passwordGen.lowerCase();
+        }
+        
+    function outputPassword(){
+        console.log(outputPassword);
+    } 
+
+    outputPassword();
+    </script>
+
+</body>
+</html>
