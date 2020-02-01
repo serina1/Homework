@@ -8,3 +8,6 @@ users will be able to request the 'system' to generate password.
 
 3) once they have approved the random picker will pick values from the variable objects arrays and display their password in the text area.
 4) If the width is under 480px this will change to a mobile view 
+
+
+live view: https://serina1.github.io/Password-Generator/
